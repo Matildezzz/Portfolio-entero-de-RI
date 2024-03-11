@@ -1,0 +1,108 @@
+html{
+    min-height: 100%;
+    max-height: 100%;
+}
+body{
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Comic Neue', cursive;
+    min-height: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+ul{
+    z-index: 15;
+    color: black;
+    margin-right: 25%;
+    margin-top: 30px;
+    margin-left: 32vw;
+    text-align: center;
+    font-size: 15pt;
+    position: absolute;
+    z-index: 20;
+}
+ul:hover{
+    color: red;
+    list-style: none;
+}
+h1{
+    color: red;
+    font-size: 70pt;
+    text-align: end;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2{
+    color: red;
+    font-size: 70pt;
+    text-align: end;
+    margin-bottom: 0;
+    margin-top: 420px;
+}
+h3{
+    color: red;
+    font-size: 50pt;
+    position: relative;
+    left: 90px;
+    top: -500px;
+}
+.senal{
+    width: 2cm;
+    margin-left: 50%;
+    opacity: 0%;
+}
+.senal:hover{
+    opacity: 100%;
+}
+.flecha1{
+    z-index: -5;
+    transform: rotate(45deg);
+    width: 5cm;
+    position:absolute;
+    top: 60px;
+    left: 320px;
+}
+.flecha2{
+    z-index: -15;
+    transform: rotate(45deg);
+    width: 5cm;
+    position: absolute;
+    top: 240px;
+    left: 270px;
+}
+.flecha3{
+    z-index: -5;
+    transform: rotate(-45deg);
+    width: 5cm;
+    position: absolute;
+    top: 430px;
+    left: 300px;
+}
+.flecha4{
+    z-index: -5;
+    transform: rotate(-55deg);
+    width: 5cm;
+    position: absolute;
+    top:-375px;
+    left: 500px;
+}
+.flecha5{
+    z-index: -5;
+    transform: rotate(180deg);
+    width: 5cm;
+    position: absolute;
+    top: 75px;
+    left: -50px;
+}
+.flecha6{
+    z-index: -5;
+    width: 3cm;
+    position: absolute;
+    top: -400px;
+    left: -925px;
+}
